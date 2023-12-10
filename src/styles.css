@@ -1,0 +1,21 @@
+.cardHome{
+  top: 55%;
+}
+
+.discover h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blockquote{
+  border: 1px solid #a3a1a3;
+  padding: 2%;
+  border-radius: 1.5%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.App {
+  text-align: center;
+}

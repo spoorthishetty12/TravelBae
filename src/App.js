@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles.css';
+import { Route, Routes } from "react-router-dom"
+import Home from "./routes/Home"
+import Destinations from './routes/Destinations';
+import Report from './routes/Report';
+import Italy from './routes/Italy'
+import Tokyo from './routes/Tokyo';
+import Bali from './routes/Bali';
+import Rome from './routes/Rome';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+          <Route path= "/" element = {<Home />}/>
+          <Route path= "/destinations" element = {<Destinations />}/>
+          <Route path= "/report" element = {<Report />}/>
+          <Route path= "/italy" element = {<Italy/>} />
+          <Route path= "/tokyo" element = {<Tokyo/>} />
+          <Route path= "/bali" element = {<Bali/>} />
+          <Route path= "/rome" element = {<Rome/>} />
+      </Routes>
     </div>
   );
 }

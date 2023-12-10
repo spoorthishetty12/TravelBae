@@ -1,0 +1,63 @@
+.report-head-mid{
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    background-color: #6c757d ;
+    padding: 3rem 2rem;
+}
+
+.report-head-text{
+    color : white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.report-head-p{
+    color: white;
+    font-size: 1.2rem;
+}
+
+h2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.container {
+    text-align: left;
+}
+
+pr{
+    padding-right: 50%;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.body{
+    text-align: left;
+}
+
+mb-0{
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 555px){
+    .report-head-text{
+        font-size: 2rem;
+    }
+
+    .report-head-p{
+        font-size: 1.1rem;
+    }
+}
